@@ -213,6 +213,9 @@ public class AsyncSharedPrefs implements SharedPreferences, OnSharedPreferenceCh
                 return this;
             }
         }
+
+        public void apply() {
+        }
         
 		@Override
 		public boolean commit() {
